@@ -1,0 +1,8 @@
+body{
+    background-image: url(https://images.unsplash.com/photo-1538805060514-97d9cc17730c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80);
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+main{position: relative; top: 100px;}
+input{opacity : 0.5;}

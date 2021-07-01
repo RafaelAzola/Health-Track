@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Acompanhamento</title>
+    
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    
+        <link rel="stylesheet" href="styles.css">
+    </head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light"><!--Cabeçalho-->
+        <a class="navbar-brand" href="perfil.html">Informações do Usuário</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#textoNavbar" aria-controls="textoNavbar" aria-expanded="false" aria-label="Alterna navegação">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="textoNavbar">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="">Serviço Premium<span class="sr-only"></span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="acompanhamento.html">Acompanhamento</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Sair</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+    <main class="container">
+    <div id="list" class="row"><!--tabela-->
+        <div class="table-responsive col-md-12">
+            <table class="table table-light" cellspacing="0" cellpadding="0">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Descrição</th>
+                        <th>Peso</th>
+                        <th>Data</th>
+                        <th class="actions">Ações</th>
+                     </tr>
+                </thead>
+                <tbody><!--Coluna-->
+                    <tr>
+                        <td>1052</td>
+                        <td>Mauris facilisis egestas tellus, ac.</td>
+                        <td>91kg</td>
+                        <td>05/04/2021</td>
+                        <td class="actions">
+                            <a class="btn btn-primary" href="">Editar</a>
+                            <a class="btn btn-secondary"  href="" data-toggle="modal" data-target="#delete-modal">Excluir</a>
+                        </td>
+                    </tr>
+                </tbody>
+                <tbody><!--Coluna-->
+                    <tr>
+                        <td>1053</td>
+                        <td>Morbi eu ipsum ex. Aenean.</td>
+                        <td>90kg</td>
+                        <td>10/04/2021</td>
+                        <td class="actions">
+                            <a class="btn btn-primary" href="">Editar</a>
+                            <a class="btn btn-secondary"  href="" data-toggle="modal" data-target="#delete-modal">Excluir</a>
+                        </td>
+                    </tr>
+                </tbody>
+                <tbody><!--Coluna-->
+                    <tr>
+                        <td>1054</td>
+                        <td>Interdum et malesuada fames ac.</td>
+                        <td>90kg</td>
+                        <td>15/04/2021</td>
+                        <td class="actions">
+                            <a class="btn btn-primary" href="">Editar</a>
+                            <a class="btn btn-secondary"  href="" data-toggle="modal" data-target="#delete-modal">Excluir</a>
+                        </td>
+                    </tr>
+                </tbody>
+                <tbody><!--Coluna-->
+                    <tr>
+                        <td>1055</td>
+                        <td>Donec ac iaculis lorem, eget.</td>
+                        <td>89kg</td>
+                        <td>20/04/2021</td>
+                        <td class="actions">
+                            <a class="btn btn-primary" href="">Editar</a>
+                            <a class="btn btn-secondary"  href="" data-toggle="modal" data-target="#delete-modal">Excluir</a>
+                        </td>
+                    </tr>
+                </tbody>
+                <tbody><!--Coluna-->
+                    <tr>
+                        <td>1056</td>
+                        <td>Etiam vitae tortor vel ante.</td>
+                        <td>88kh</td>
+                        <td>25/04/2021</td>
+                        <td class="actions">
+                            <a class="btn btn-primary" href="">Editar</a>
+                            <a class="btn btn-secondary"  href="" data-toggle="modal" data-target="#delete-modal">Excluir</a>
+                        </td>
+                    </tr>
+                </tbody>
+                <tbody><!--Coluna-->
+                    <tr>
+                        <td>1057</td>
+                        <td>Suspendisse potenti. Phasellus sed ipsum.</td>
+                        <td>88kg</td>
+                        <td>30/04/2021</td>
+                        <td class="actions">
+                            <a class="btn btn-primary" href="">Editar</a>
+                            <a class="btn btn-secondary"  href="" data-toggle="modal" data-target="#delete-modal">Excluir</a>
+                        </td>
+                    </tr>
+                </tbody>
+             </table>
+         </div>
+     </div> 
+    </main>
+</body>
+</html>
